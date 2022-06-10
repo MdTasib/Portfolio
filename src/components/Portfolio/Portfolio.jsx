@@ -24,26 +24,61 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://lukas-bd.web.app" rel="noreferrer" target="_blank">
+        <img src={Portfolio4} alt="" />
           
-          <img src={Portfolio4} alt="" />
-          </a>
+          <div className="description">
+            <h4>Lukas</h4>
+            <div className="link">
+              <a href="https://lukas-bd.web.app" rel="noreferrer" target="_blank">
+                LIVE
+              </a>
+              <a href="https://github.com/MdTasib/Lukas-client" rel="noreferrer" target="_blank">
+                GITHUB
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://practice-firebase-4157f.web.app/" rel="noreferrer" target="_blank">
           <img src={Portfolio1} alt="" />
-          </a>
+          <div className="description">
+            <h4>Store House</h4>
+            <div className="link">
+              <a href="https://practice-firebase-4157f.web.app/" rel="noreferrer" target="_blank">
+                LIVE
+              </a>
+              <a href="https://github.com/MdTasib/store-house-client" rel="noreferrer" target="_blank">
+                GITHUB
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://photography-studiobd.web.app/" rel="noreferrer" target="_blank">
           <img src={Portfolio3} alt="" />
-          </a>
+          <div className="description">
+            <h4>Photographoy</h4>
+            <div className="link">
+              <a href="https://photography-studiobd.web.app/" rel="noreferrer" target="_blank">
+                LIVE
+              </a>
+              <a href="https://github.com/MdTasib/photography-studio" rel="noreferrer" target="_blank">
+                GITHUB
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        
-        <a href="https://red-onionbd.netlify.app/" rel="noreferrer" target="_blank">
           <img src={Portfolio2} alt="" />
-          </a>
+          <div className="description">
+            <h4>Red Onion</h4>
+            <div className="link">
+              <a href="https://red-onionbd.netlify.app" rel="noreferrer" target="_blank">
+                LIVE
+              </a>
+              <a href="https://github.com/MdTasib/Red-onion-foods" rel="noreferrer" target="_blank">
+                GITHUB
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
