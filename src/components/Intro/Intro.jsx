@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I'm</span>
           <span>Mohammad Tasib</span>
           <span>
           I have professional experience with programming languages and tools such as React, Redux, HTML, CSS, Sass, Bootstrap, javascript, ES6, Express Js, Material UI, and Firebase Auth to contribute features by writing and maintaining code.
